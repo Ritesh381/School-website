@@ -6,6 +6,7 @@ import ContactUsSection from './components/ContactUsSection';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Manager from './components/Manager';
+import ImageGallary from './components/ImageGallary';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <AboutUsSection />
         <Manager/>
         <CoursesSection />
+        <ImageGallary/>
         <ContactUsSection />
       </main>
       <Footer />
