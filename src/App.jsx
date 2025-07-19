@@ -5,6 +5,7 @@ import CoursesSection from './components/CoursesSection';
 import ContactUsSection from './components/ContactUsSection';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Manager from './components/Manager';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <main className="flex-grow">
         <HeroSection />
         <AboutUsSection />
+        <Manager/>
         <CoursesSection />
         <ContactUsSection />
       </main>
