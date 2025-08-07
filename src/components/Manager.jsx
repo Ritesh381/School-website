@@ -1,10 +1,11 @@
 import React from "react";
+import pic from "../assets/manager.jpg"; 
 
 function Manager() {
   return (
     <section
       id="manager-message"
-      className="py-16 md:py-24 bg-blue-50 rounded-lg shadow-md mx-4 mt-4"
+      className="py-16 md:py-24  rounded-lg shadow-md mx-4 mt-4"
     >
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-12 text-blue-700">
@@ -12,7 +13,7 @@ function Manager() {
         </h2>
         <div className="flex flex-col items-center max-w-3xl mx-auto">
           <img
-            src="https://scontent.fvns6-2.fna.fbcdn.net/v/t39.30808-1/464012719_3475874332557313_2287421057856572512_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=107&ccb=1-7&_nc_sid=e99d92&_nc_ohc=emKlPGaWGaIQ7kNvwG12rnW&_nc_oc=Adk5MNLKLJWO5obIEkGgcJ-oNxpdvwyhSnbv9W9-KK9iOk2yOrv9EjG1UAMO1fgNXS1nhRwNRQveXg8burgac1Ep&_nc_zt=24&_nc_ht=scontent.fvns6-2.fna&_nc_gid=ZCgf-Vd80f1zeJxk9UnfVA&oh=00_AfSsdzqmMos7D0xUvdlHhrdBANKkqBb5pfY3jHwppLaIOQ&oe=68815764" // Placeholder for a manager's/principal's photo
+            src={pic}
             alt="Principal's Photo"
             className="w-40 h-40 rounded-full object-cover shadow-lg mb-4 border-4 border-blue-300 transform hover:scale-105 transition duration-300 ease-in-out"
             onError={(e) => {

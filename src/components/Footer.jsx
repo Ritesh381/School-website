@@ -9,6 +9,7 @@ const Footer = () => {
           <a href="#" className="hover:text-blue-400 transition duration-300">Privacy Policy</a> |{' '}
           <a href="#" className="hover:text-blue-400 transition duration-300">Terms of Service</a>
         </p>
+        <a href=""></a>
       </div>
     </footer>
   );
